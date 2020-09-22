@@ -15,7 +15,7 @@ public class SpringJenkinApplication {
 	
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Success message";
+		return "Success message !";
 	}
 
 }
